@@ -44,4 +44,5 @@ function reiniciarJogo() {
     tentativas = 1;
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    document.getElementById('reiniciar').setAttribute('disabled', true);
 }
